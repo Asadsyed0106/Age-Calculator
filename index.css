@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff2311, #ff3256);
+    color: #fff;
+    padding: 10px;
+
+}
+.age-calculator{
+    width: 100%;
+    max-width: 660px;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+.age-calculator h1 {
+    font-size: 48px;
+
+}
+.input-box{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background:rgba(255,255,255,0.3);
+    display: flex;
+    align-items: center;
+}
+.input-box input{
+    flex: 1;
+    margin-right : 20px;
+    padding: 10px 20px ;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+
+
+}
+.input-box button{
+    padding: 15px 30px;
+    background-color: #ffff76;
+    color:#333;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-weight: 400px;
+    cursor: pointer;
+
+}
+
+
+#result{
+    font-size: 30px;
+    color: #fff;
+}
+#result span{
+    color: #ffff76;
+    font-size: 40px;
+    font-weight: 300px;
+}
